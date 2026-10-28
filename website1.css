@@ -1,0 +1,275 @@
+body {
+margin: 0;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.4;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+#layout {
+display: grid;
+grid-template-columns: 65% 35%;
+min-height: 100vh;
+}
+
+#txtframe {
+  position: relative;
+  max-width: 660px;
+  margin: 20px;
+  padding: 2rem;
+}
+
+#backdrop-img {
+  min-height: 400px;
+  padding: 1.75rem;
+  background-image: url("bgd.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-color: #8a9a9a;
+}
+
+#nav {
+  width: 220px;
+  min-height: 310px;
+  padding: 1.25rem 1.75rem;
+  background-color: #ffffff;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  margin-bottom: 1.25rem;
+}
+
+#nav a {
+  color: #ff0000;
+  font-family:  Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#nav a:hover,
+#nav a:focus {
+  text-decoration: underline;
+}
+
+.edge {
+  position: absolute;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+}
+
+.edge-top {
+  top: 0.4rem;
+  left: 2rem;
+  right: 2rem;
+}
+
+.edge-bottom {
+  bottom: 0.4rem;
+  left: 2rem;
+  right: 2rem;
+  transform: rotate(180deg);
+}
+
+.edge-right {
+  top: 2rem;
+  bottom: 2rem;
+  right: 0.4rem;
+  writing-mode: vertical-rl;
+}
+
+.edge-left {
+  top: 2rem;
+  bottom: 2rem;
+  left: 0.4rem;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+#section {
+  width: 100%;
+  max-width: 760px;
+  border-collapse: collapse;
+  margin-top: 3rem;
+  margin-right: 0;
+  margin-bottom: 2rem;
+  margin-left: 40px;
+}
+
+.section-left {
+  text-align: left;
+  font-size: 18px;
+}
+
+.section-right {
+  text-align: right;
+  font-size: 18px;
+}
+
+#footer {
+padding-top: 1rem;
+padding-right: 20px;
+padding-bottom: 2rem;
+padding-left: 20px;
+}
+
+
+.column {
+  padding: 25px;
+  background-color: aqua;
+}
+
+#split-pg {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 100vh;
+}
+
+#left {
+  padding: 30px;
+  background-color: #e1ebf4;
+}
+#right{
+  padding: 40px;
+  background-color: #ffffff;
+  overflow-y: auto; 
+}
+
+#right img {
+  display: block;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+#info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#info-table td {
+  padding: 25px 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #111111;
+  vertical-align: top;
+}
+
+
+.info-head h1 {
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+}
+
+.info-sub {
+  margin: 0;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+}
+
+.info-body {
+  height: 420px;
+  font-family: "DM Sans", Arial, sans-serif;
+  letter-spacing: 0.12em;
+}
+
+.info-body ol {
+  padding-left: 1.5rem;
+}
+
+.info-body li {
+  margin-bottom: 1rem;
+}
+
+.info-body a {
+  color: #ff0000;
+}
+
+#left p a {
+  margin-right: 15px;
+  color: #8400ff;
+  font-style: italic;
+  text-decoration: none;
+}
+
+#left p a:hover,
+#left p a:focus {
+  text-decoration: underline;
+}
+
+.shift-left {
+  margin-left: 5%;
+}
+
+.shift-right {
+  margin-left: 40%;
+}
+
+.nestedlst {
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    }   
+
+.nestedlst li {
+  margin-bottom: 0.3rem;
+}
+
+.nestedlst ul {
+  margin-top: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+#article {
+  margin: 2rem 0 3rem 60px;
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.1em;
+}
+
+#article p {
+  margin-bottom: 0.3rem;
+}
+
+#article ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+#article li {
+  margin-bottom: 0.1rem;
+}
+
+.resources-lst {
+    margin-left: 50px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+}
+
+#resources-nav {
+    margin-left: 30px;
+}
